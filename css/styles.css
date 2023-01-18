@@ -140,6 +140,10 @@ color: #4D5AE5;
 /* --------Contacts-------- */
 
 
+.contacts{
+    width: 15px;
+    height: 15px;
+}
 .address-list {
 display: flex;
 }
@@ -188,7 +192,7 @@ color: #4D5AE5;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
         ),  
-        url(../images/people-office\ 1.jpg);
+        url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -230,7 +234,30 @@ margin: 0 auto;
 .offers-item {
     min-width: 264px;
 }
+.offers-item::before{
+    content: "";
+    display: block;
+    height: 112px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    background-size: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-antenna::before{
+    background-image: url(../images/antenna.svg);
+}
+.icon-clock::before{
+    background-image: url(../images/clock.svg);
+}
+.icon-diagram::before{
+    background-image: url(../images/diagram.svg);
+}
+.icon-astronaut::before{
+    background-image: url(../images/astronaut.svg);
+}
 .offers-title {
+    margin-top: 8px;
     margin-bottom: 8px;
 }
 .offers-after-title {
