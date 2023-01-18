@@ -141,8 +141,8 @@ color: #4D5AE5;
 
 
 .contacts{
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
 }
 .address-list {
 display: flex;
@@ -170,10 +170,12 @@ text-transform: uppercase;
 .address-anchor:hover,
 .address-anchor:focus {
 color: #4D5AE5;
+fill: currentColor;
 }
 .address-anchor-tel:hover,
 .address-anchor-tel:focus {
 color: #4D5AE5;
+fill: currentColor;
 }
 
 
