@@ -248,6 +248,7 @@ margin: 0 auto;
 .offers-icons{
     width: 64px;
     height: 64px;
+    margin: 24px 100px;
 }
 .offers-title {
     margin-top: 8px;
