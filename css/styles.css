@@ -222,6 +222,9 @@ margin: 0 auto;
 .bussiness-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 2px 1px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -239,8 +242,6 @@ margin: 0 auto;
     min-width: 264px;
 }
 .ofc{
-    width: 264px;
-    height: 112px;
     background: #F4F4FD;
     border-radius: 4px;
     background-size: 64px;
@@ -332,6 +333,30 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+margin-bottom: 8px;
+}
+.social-list {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+justify-content: center;    
+}
+.social-item {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+}
+.social-item:hover,
+.social-item:focus{
+    background-color: #3442dd;
+}
+.social-icons {
+    width: 16px;
+    height: 16px;
+    margin: 12px 12px;
+    fill:  var(--primary-white-color);
 }
 
 
@@ -359,7 +384,6 @@ color: var(--primary-text-color);
 }
 .customers-item {
     width: 168px;
-    height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
@@ -367,6 +391,7 @@ color: var(--primary-text-color);
     width: 104px;
     height: 56px;
     margin: 16px 32px;
+    fill:  #8E8F99;
 }
 
 
@@ -398,6 +423,10 @@ color: var(--primary-text-color);
 .portfolio-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 2px 1px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid #404bbf;
 }
 .portfolio-list {
     display: flex;
@@ -438,6 +467,10 @@ color: var(--primary-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.footer-container{
+    display: flex;
+    gap: 120px;
+}
 .footer-logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -464,4 +497,30 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+}
+.footer-after-title{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.footer-item {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 50%;
+}
+.footer-icons {
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    fill: var(--primary-white-color);
 }
