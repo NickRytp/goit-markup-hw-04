@@ -302,9 +302,6 @@ margin-bottom: 72px;
     background: #F4F4FD;
     max-width: 1440px;
     margin: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 .team-title {
 font-size: 36px;
@@ -356,7 +353,7 @@ justify-content: center;
 }
 .social-item:hover,
 .social-item:focus{
-    background-color: #3442dd;
+    background-color: #404BBF;
 }
 .social-icons {
     width: 16px;
@@ -529,6 +526,10 @@ margin-bottom: 16px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 50%;
+}
+.footer-item:hover,
+.footer-item:focus{
+    background-color: #31D0AA;
 }
 .footer-icons {
     width: 24px;
